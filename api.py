@@ -3,13 +3,15 @@ from flask_cors import CORS
 import re
 from io import BytesIO
 
-# nltk.download('stopwords')
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 import base64
+
+# nltk.download('stopwords')
 
 STOPWORDS = set(stopwords.words("english"))
 
