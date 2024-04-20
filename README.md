@@ -6,10 +6,10 @@ git clone https://github.com/yashkarambalkar/fba.git
 
 Step 2: Open the cloned repository and create a conda environment. Activate the new environment
 ```
-conda create -n amazonreview python=3.10
+conda create -n yashfeedbackanalysis python=3.10
 ```
 ```
-conda activate amazonreview
+conda activate yashfeedbackanalysis
 ```
 
 Step 3: Install the requirements file
