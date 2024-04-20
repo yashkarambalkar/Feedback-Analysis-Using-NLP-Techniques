@@ -11,7 +11,7 @@ import pandas as pd
 import pickle
 import base64
 
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
 STOPWORDS = set(stopwords.words("english"))
 
