@@ -63,9 +63,6 @@ pip install -r requirements.txt
 ## Conclusion
 This project showcases the effective use of NLP and sentiment analysis to gain meaningful insights from customer feedback. Containerizing and deploying on Azure further demonstrates proficiency in cloud-based deployment.
 
-## Contact
-For questions or collaboration, please reach out to Yash at [your-email@example.com](mailto:your-email@example.com).
-
 ---
 
 *This project was developed as part of a hands-on learning experience in NLP, data engineering, and cloud deployment.*
