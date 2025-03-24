@@ -38,13 +38,6 @@ Step 3: Install the requirements file
 ```
 pip install -r requirements.txt
 ```
-
-## Usage
-1. Pre-process the feedback data using the provided scripts in `src/`.
-2. Perform sentiment analysis using Hugging Face API.
-3. Generate visual reports using the visualization modules.
-4. Deploy the project using Docker and host it on Azure.
-
 ## Docker Deployment
 1. Build the Docker image:
     ```bash
@@ -66,33 +59,3 @@ This project showcases the effective use of NLP and sentiment analysis to gain m
 ---
 
 *This project was developed as part of a hands-on learning experience in NLP, data engineering, and cloud deployment.*
-
-
-Step 1: Clone the repository
-```
-git clone https://github.com/yashkarambalkar/fba.git
-```
-
-Step 2: Open the cloned repository and create a conda environment. Activate the new environment
-```
-conda create -n yashfeedbackanalysis python=3.10
-```
-```
-conda activate yashfeedbackanalysis
-```
-
-Step 3: Install the requirements file
-```
-pip install -r requirements.txt
-```
-
-Step 4: Run the app
-```
-flask --app api.py run
-```
-
-Step 5: The app will run on port 5000. 
-
-```
-localhost:5000
-```
